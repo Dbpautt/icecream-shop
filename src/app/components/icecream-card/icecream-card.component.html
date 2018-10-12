@@ -1,0 +1,9 @@
+<div class="card">
+  <a [routerLink]="['/list', icecream._id]">
+    <p>Icecream flavour: {{icecream.flavour}}</p>
+    <p>Topping: {{icecream.topping}}</p>
+    <p>Price: {{icecream.price | currency:'EUR'}}</p>
+    <p>Created on: {{icecream.createdOn | date }}</p>
+    <img src="https://static1.squarespace.com/static/54a61052e4b0f4be674a6ccd/54a6ea31e4b037e9bac47d0a/54a6eb8ce4b0970e0f11261c/1420225426639/icecream.gif" >
+  </a> 
+</div> 
